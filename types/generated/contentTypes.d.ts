@@ -386,7 +386,7 @@ export interface ApiStudentInfoStudentInfo extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     first_name: Schema.Attribute.String;
-    gender: Schema.Attribute.Enumeration<['Male', 'Female']>;
+    gender: Schema.Attribute.Enumeration<['Male', 'Female', 'Other']>;
     last_name: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<

@@ -36,7 +36,8 @@
       "type": "enumeration",
       "enum": [
         "Male",
-        "Female"
+        "Female",
+        "Other"
       ]
     }
   }
